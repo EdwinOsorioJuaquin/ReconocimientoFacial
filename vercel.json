@@ -11,5 +11,6 @@
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "ignoreCommand": "echo modelo_final_CNN.h5 > .gitignore && echo DataPersonExperimento/ >> .gitignore && git check-ignore **/*"
 }
